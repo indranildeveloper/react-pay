@@ -1,0 +1,55 @@
+.common-section {
+  margin: 5rem 0;
+}
+
+.our-services img {
+  width: 65%;
+  object-fit: cover;
+  margin-top: 10rem;
+  box-shadow: 0.5rem 0.5rem 0.7rem rgba(0, 0, 0, 0.3);
+  border-radius: 0.7rem;
+}
+
+.mini-title {
+  text-transform: uppercase;
+  margin: 3rem 0;
+  font-size: 1.5rem;
+}
+
+.main-heading {
+  font-weight: bolder;
+}
+
+.service-info {
+  margin-top: 3.5rem;
+  padding: 0 1.5rem;
+}
+
+.service-number {
+  width: 3rem;
+  height: 3rem;
+  border: 0.1rem solid var(--primary-color);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  display: grid;
+  place-items: center;
+}
+
+.service-data {
+  padding-left: 2rem;
+}
+
+.service-data p {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+@media (max-width: 968px) {
+  .service-data {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+}

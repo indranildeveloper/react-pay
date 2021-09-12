@@ -1,0 +1,74 @@
+/* :root {
+  --bg-color: #f1f5fd;
+  --primary-color: #6f5de7;
+  --text-color: 828286;
+  --main-text-color: #333333;
+} */
+.navbar-bg {
+  background: var(--bg-color) !important;
+  padding: 20px 0;
+  z-index: 999;
+  position: relative;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.navbar li {
+  padding: 0 2rem;
+}
+
+.navbar li a {
+  font-size: 1.7rem;
+  font-weight: normal;
+}
+
+.navbar li a:hover {
+  color: var(--primary-color) !important;
+  text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style {
+  border: 1px solid lightblue;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 3rem;
+  color: #fff;
+  background: var(--primary-color);
+  text-transform: capitalize;
+  font-size: 1.7rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-style:first-child {
+  margin-right: 2rem;
+}
+
+.btn-style:hover {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+.btn-style-second {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+.btn-style-second:hover {
+  border: 1px solid lightblue;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 3rem;
+  color: #fff;
+  background: var(--primary-color);
+  text-transform: capitalize;
+  font-size: 1.7rem;
+}
+
+.active-link {
+  color: var(--primary-color) !important;
+  text-shadow: 0 0.2rem 0.3rem rgba(183, 171, 255, 0.5);
+}

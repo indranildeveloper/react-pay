@@ -1,0 +1,20 @@
+footer {
+  padding-top: 5rem;
+  background: #182334;
+}
+
+footer li {
+  list-style: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 1rem 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+footer li a:hover {
+  color: var(--primary-color);
+}
+
+footer p {
+}

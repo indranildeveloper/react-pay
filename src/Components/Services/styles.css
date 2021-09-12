@@ -1,0 +1,32 @@
+.service-main-container {
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
+
+.service-container .main-heading {
+  margin: 3rem 0;
+}
+
+.service-container .work-container-subdiv {
+  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+  width: 30%;
+  margin: 1.5rem;
+  border-radius: 0.7rem;
+}
+
+.service-container .work-container-subdiv:hover {
+  background: var(--bg-color);
+}
+.service-container .work-container-subdiv:hover > .fontawesome-style {
+  background: #ffffff;
+}
+
+@media (max-width: 968px) {
+  .service-container {
+    padding: 3rem;
+  }
+  .service-container .work-container-subdiv {
+    margin: 1.5rem auto;
+    width: auto;
+  }
+}
